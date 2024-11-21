@@ -1,0 +1,45 @@
+/* css reset */
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+/* general style */
+body{
+   text-align: center;
+}
+
+/* proprietà gestite a js */
+.d-none{
+   display: none;
+}
+
+.d-block{
+   display: block;
+}
+
+/* stile della pagina */
+h1{
+   margin: 10px 0;
+}
+
+.lamp-section{
+   margin: 20px auto;
+   width: 700px;
+   height: 500px;
+   border: 2px solid black;
+   border-radius: 10px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.lamp-button{
+   padding: 10px 20px;
+   border-radius: 50px;
+}
+
+/* proprietà per sistemare la posizione della lampadina */
+.reverse{
+   transform: scaleX(-1);
+}
